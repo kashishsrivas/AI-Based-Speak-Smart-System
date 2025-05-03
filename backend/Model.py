@@ -3,7 +3,7 @@ from rich import print
 from dotenv import dotenv_values
 env_vers = dotenv_values(".env")
 CohereAPIKey = env_vers.get("CohereAPIKey")
-co= cohere.Client(api_key='JdBqnldlxqOWGg3cUnYE0cG6uFDFLJjowY1dodBQ')
+co= cohereAPIKEY
 funcs=[
     "exit", "general", "realtime", "open", "play",
     "generate image", "system", "content", "google search", "youtube search",
