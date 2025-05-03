@@ -94,26 +94,7 @@ def MainExecution():
     Merged_query=" and".join(
         [" ".join(i.split()[1:]) for i in Decision if i.startswith("general") or i.startswith("realtime")]
     )
-    for queries in Decision:
-          if "generate " in queries:
-                ImageGenerationQuery=str(queries)
-                ImageExecution = True
-    for queries in Decision:
-          if TaskExecution==False:
-                if any(queries.startswith(func) for func in Functions):
-                      run(Automation(list(Decision)))
-                      TaskExecution = True
-                      
-    if ImageExecution==True:
-          with open(r"Frontend\Files\ImageGeneration.data", "w") as file:
-                file.write(f"{ImageGenerationQuery},True")
-          try:
-                p1=subprocess.Popen(['python', r'Backend\ImageGeneration.py'],
-                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
-                                    stdin=subprocess.PIPE, shell=False)
-                subprocess.append(p1)
-          except Exception as e:
-              print(f"Error: {e}")
+    
     if G and R or R:
           
           SetAssistantStatus("Searching...")
