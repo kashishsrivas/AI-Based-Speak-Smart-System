@@ -8,7 +8,7 @@ Username = env_vars.get("Username")
 Assistantname = env_vars.get("Assistantname")
 GroqAPIKey = env_vars.get("GroqAPIKey")
 
-client = Groq(api_key='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')
+client = GroqAPIKEY
 messages = []
 
 System = f"""Hello, I am {Username}, You are a very accurate and advanced AI chatbot named {Assistantname} which also has real-time up-to-date information from the internet.
