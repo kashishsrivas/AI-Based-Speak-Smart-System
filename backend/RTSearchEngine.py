@@ -8,7 +8,7 @@ env_vars = dotenv_values(".env")
 Username = env_vars.get("Username")
 Assistantname = env_vars.get("Assistantname")
 GroqAPIKey = env_vars.get("GroqAPIKey")
-client = Groq(api_key='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')
+client = GroqAPIKEY
 
 System = f"""
 Hello, I am {Username}. You are an advanced and highly accurate AI chatbot named {Assistantname}, equipped with real-time, up-to-date internet information. 
