@@ -21,7 +21,7 @@ classes = ["zCubwf", "hgKElc", "LTKOO SY7ric", "ZOLcW", "gsrt vk_bk FzvWSb YwPhn
            "sXLaOe", "LWkfKe", "VQF4g", "qv3Wpe", "kno-rdesc", "SPZz6b"]
 
 useragent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
-client= Groq(api_key='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')
+client= GroqAPIKEY
 
 professional_responses=[
     "Hey, welcome! I’m here to assist, guide, and make things easy for you. What can we tackle today?"
