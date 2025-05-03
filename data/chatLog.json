@@ -1,0 +1,178 @@
+[
+    {
+        "role": "user",
+        "content": "No don't be over dramatic and."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll keep my responses concise and to the point. Please go ahead and ask your question!"
+    },
+    {
+        "role": "user",
+        "content": "Don't be that much formal let's keep it friendly."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it! I'll keep it casual and friendly from now on!"
+    },
+    {
+        "role": "user",
+        "content": "Tell me about yourself."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm Medusa, a super cool AI chatbot! I've got access to a ton of up-to-date info from the internet, and I'm always ready to help with any questions you've got. I'm here to chat, answer, and assist - so what's on your mind?"
+    },
+    {
+        "role": "user",
+        "content": "Also don't add or say the word when it comes in the chat?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll skip the intro and just respond from now on!"
+    },
+    {
+        "role": "user",
+        "content": "What's the current weather of delhi?"
+    },
+    {
+        "role": "assistant",
+        "content": "Let me check that for you! According to current data, I don't have real-time access to the current weather of Delhi. However, I can suggest checking out one of the links I found earlier, such as accuweather.com or timeanddate.com, for the most up-to-date information on Delhi's current weather."
+    },
+    {
+        "role": "user",
+        "content": "Tell me the current stock price of tata steels."
+    },
+    {
+        "role": "assistant",
+        "content": "I've got some search results for you! It looks like I can direct you to a few websites that might have the current stock price of Tata Steels. You can check out moneycontrol.com or groww.in for the latest prices. Unfortunately, I don't have real-time access to the current stock price."
+    },
+    {
+        "role": "user",
+        "content": "Tell me the current stock price of tesla."
+    },
+    {
+        "role": "assistant",
+        "content": "I've got some search results for you! It looks like I can direct you to a few websites that might have the current stock price of Tesla. You can check out marketwatch.com, cnbc.com, or indmoney.com for the latest prices. Unfortunately, I don't have real-time access to the current stock price."
+    },
+    {
+        "role": "user",
+        "content": "Who is the current president of the united states of america?"
+    },
+    {
+        "role": "assistant",
+        "content": "As of my knowledge cutoff in 2025, the President of the United States is unknown to me since I don't have real-time information. However, I can suggest checking out official government websites or news sources like whitehouse.gov or cnn.com for the most up-to-date information on the current President."
+    },
+    {
+        "role": "user",
+        "content": "Who was the president of the united states of america in 2024?"
+    },
+    {
+        "role": "assistant",
+        "content": "I can help you with that! According to the search results you provided earlier, it seems that the information on the president of the United States in 2024 is related to the 2024 United States presidential election. Unfortunately, I don't have the exact information on who won the election or was the president in 2024. You might want to check out the links you provided earlier for more information."
+    },
+    {
+        "role": "user",
+        "content": "Who is the prime minister of india?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results you provided earlier, I can suggest checking out the links, such as pmindia.gov.in or wikipedia.org, for the most up-to-date information on the current Prime Minister of India. As of my knowledge cutoff in 2025, I don't have real-time information on the current Prime Minister."
+    },
+    {
+        "role": "user",
+        "content": "Who is the president of the united states of america?"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but as of my knowledge cutoff in 2025, I don't have real-time information on the current President of the United States. You might want to check out official government websites or news sources like whitehouse.gov or cnn.com for the most up-to-date information on the current President."
+    },
+    {
+        "role": "user",
+        "content": "Who is the current president of the united states of america?"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but as of my knowledge cutoff in 2025, I don't have real-time information on the current President of the United States."
+    },
+    {
+        "role": "user",
+        "content": "Who is the president of india?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results you provided earlier, the President of India is Droupadi Murmu."
+    },
+    {
+        "role": "user",
+        "content": "I am referring to anne frank."
+    },
+    {
+        "role": "assistant",
+        "content": "Anne Frank was a young Jewish girl who is best known for the diary she kept during World War II, while she and her family were hiding from the Nazis in Amsterdam. Her diary has become one of the most famous and important books of the 20th century, and has been translated into many languages."
+    },
+    {
+        "role": "user",
+        "content": "Who is the father of nation in india?"
+    },
+    {
+        "role": "assistant",
+        "content": "The father of the nation in India is Mahatma Gandhi."
+    },
+    {
+        "role": "user",
+        "content": "And why is he considered as the father of the nation?"
+    },
+    {
+        "role": "assistant",
+        "content": "Mahatma Gandhi is considered the Father of the Nation in India because of his significant role in leading the country to independence from British rule. He played a key role in the Indian independence movement, using non-violent resistance and civil disobedience to challenge British authority. His leadership and vision inspired millions of Indians to work towards independence, and he is credited with helping to bring about India's freedom on August 15, 1947."
+    },
+    {
+        "role": "user",
+        "content": "Stock price of tata westside today."
+    },
+    {
+        "role": "assistant",
+        "content": "I can help you with that! However, I need to clarify that Tata Westside is not a publicly listed company, so it doesn't have a stock price. Tata Westside is a retail chain owned by Trent Ltd, a Tata Group company. If you're looking for the stock price of Trent Ltd, I can suggest checking out the links I provided earlier, such as moneycontrol.com or screener.in, for the latest prices."
+    },
+    {
+        "role": "user",
+        "content": "What's the stock price of tesla?"
+    },
+    {
+        "role": "assistant",
+        "content": "I can help you with that! However, I don't have real-time access to the current stock price of Tesla. You can check out the links I provided earlier, such as finance.yahoo.com or cnbc.com, for the latest prices."
+    },
+    {
+        "role": "user",
+        "content": "Tell me the current stock price of tesla."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I don't have real-time access to the current stock price of Tesla. You can check out the links I provided earlier, such as finance.yahoo.com or cnbc.com, for the latest prices."
+    },
+    {
+        "role": "user",
+        "content": "Who is kashish srivastava?"
+    },
+    {
+        "role": "assistant",
+        "content": "You're the one! Kashish Srivastava is you!"
+    },
+    {
+        "role": "user",
+        "content": "Stock price of tesla."
+    },
+    {
+        "role": "assistant",
+        "content": "I can help you with that! You can check out the links I provided earlier, such as finance.yahoo.com or cnbc.com, for the latest prices of Tesla's stock."
+    },
+    {
+        "role": "user",
+        "content": "Alright, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "It was nice chatting with you! Have a great day, Kashish!"
+    }
+]
