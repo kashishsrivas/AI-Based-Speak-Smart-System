@@ -1,73 +1,86 @@
 # 🎙️ Speak Smart System - AI-Powered Voice Assistant
 
-Speak Smart System is a desktop-based AI voice assistant built with Python that enables users to interact through natural voice commands. The assistant captures speech in real time, converts it to text, processes user queries using AI-powered Natural Language Processing (NLP), and responds with human-like speech.
+Speak Smart System is a Python-based desktop voice assistant that enables users to interact with an intelligent AI system through voice commands. The application converts speech to text, processes user queries using Natural Language Processing (NLP), and responds with synthesized speech through an interactive graphical user interface.
 
 ## 🚀 Features
 
-- 🎤 Real-time voice input using SpeechRecognition
-- 🤖 AI-powered query understanding with Cohere API
-- 🔊 Natural text-to-speech responses using pyttsx3
-- 🖥️ Interactive desktop GUI built with PyQt5
-- 🧠 Context-aware response generation
-- ⚙️ Modular architecture for easy scalability and maintenance
+- Real-time speech recognition using SpeechRecognition
+- AI-powered response generation using Cohere API
+- Text-to-speech functionality using pyttsx3
+- User-friendly desktop GUI built with PyQt5
+- Voice input and spoken output interaction
+- Modular frontend and backend architecture
+- Easy to extend with additional commands and features
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Programming Language:** Python
-- **GUI Framework:** PyQt5
-- **Speech Recognition:** SpeechRecognition
-- **Text-to-Speech:** pyttsx3
-- **Natural Language Processing:** Cohere API
+- Python
+- PyQt5
+- SpeechRecognition
+- pyttsx3
+- Cohere API
+- Threading
+- File-based data storage
+
+---
 
 ## 📂 Project Structure
 
 ```text
 Speak-Smart-System/
 │
-├── gui/
-│   ├── main_window.py
+├── Frontend/
+│   ├── GUI.py
+│   ├── files/
+│   │   ├── Database.data
+│   │   ├── Mic.data
+│   │   ├── Responses.data
+│   │   └── Status.data
+│   │
+│   └── images/
+│       ├── Chat.png
+│       ├── Home.png
+│       ├── mic.png
+│       ├── mute.png
+│       ├── atlas.gif
+│       └── other UI assets
 │
-├── speech/
-│   ├── speech_to_text.py
-│   ├── text_to_speech.py
+├── backend/
+│   └── Backend functionality modules
 │
-├── nlp/
-│   ├── cohere_service.py
+├── data/
+│   └── Application data and configuration files
 │
-├── assets/
-│
-├── main.py
-├── requirements.txt
+├── Main.py
+├── Requirements.txt
 └── README.md
 ```
 
-## ⚡ How It Works
+---
 
-1. User speaks through the microphone.
-2. SpeechRecognition converts speech into text.
-3. The query is sent to the Cohere NLP model.
-4. Cohere processes the query and generates an intelligent response.
-5. pyttsx3 converts the response into spoken audio.
-6. The response is displayed in the PyQt5 interface and spoken aloud.
+## ⚙️ How It Works
 
-## 📸 Key Functionalities
+1. The user speaks through the microphone.
+2. SpeechRecognition converts the speech into text.
+3. The query is sent to the Cohere API for processing.
+4. The NLP model generates a context-aware response.
+5. pyttsx3 converts the response into speech.
+6. The response is displayed in the GUI and spoken back to the user.
 
-- Voice Command Processing
-- Speech-to-Text Conversion
-- AI-Based Question Answering
-- Text-to-Speech Synthesis
-- User-Friendly Desktop Interface
+---
 
 ## 🔧 Installation
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/kashishsrivas/speak-smart-system.git
-cd speak-smart-system
+git clone https://github.com/kashishsrivas/Speak-Smart-System.git
+cd Speak-Smart-System
 ```
 
-### Create Virtual Environment
+### Create a Virtual Environment
 
 ```bash
 python -m venv venv
@@ -75,31 +88,46 @@ python -m venv venv
 
 ### Activate Virtual Environment
 
-**Windows**
+#### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-**Linux/macOS**
+#### Linux/macOS
 
 ```bash
 source venv/bin/activate
 ```
 
-### Install Dependencies
+### Install Required Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
-## ▶️ Run the Application
+---
+
+## ▶️ Running the Application
+
+Run the application using:
 
 ```bash
-python main.py
+python Main.py
 ```
+
+---
+
+## 💡 Key Capabilities
+
+- Voice-based user interaction
+- Intelligent question answering
+- AI-driven conversational responses
+- Speech synthesis for natural communication
+- Desktop GUI for seamless user experience
+
+---
 
 ## 👨‍💻 Author
 
 **Kashish Srivastava**
-
